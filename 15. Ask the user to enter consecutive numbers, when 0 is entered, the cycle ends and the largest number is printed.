@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main()  {
+    int n,max;
+    while(cin>>n && n!=0) if(n>max) max=n;
+    cout<<max;
+}
+
