@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main()  {
+    double a,b;
+    char t;
+    cin>>a;
+    while(cin>>t>>b)  
+cout<<(t=='+'?a+=b:t=='-'?a-=b:t=='*'?a*=b:t=='/'?a/=b:a)<<endl;
+}
